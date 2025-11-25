@@ -262,10 +262,6 @@ public class GateOSplash extends JWindow {
             // Version/footer text
             g2.setFont(new Font("SansSerif", Font.PLAIN, 14));
             g2.setColor(new Color(100, 140, 200, 150));
-            String version = "v1.0 | Digital Logic Simulator";
-            FontMetrics fm = g2.getFontMetrics();
-            g2.drawString(version, w - fm.stringWidth(version) - 30, h - 30);
-
         } finally {
             g2.dispose();
         }
